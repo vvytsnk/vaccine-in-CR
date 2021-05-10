@@ -1,0 +1,12 @@
+.btn-go-to-web {
+  padding: 5px 20px;
+  background: none;
+  color: $brown;
+  font-weight: 500;
+  font-size: $next-sources-block-btn;
+  border: 2px solid $brown;
+  &:hover {
+    background: $brown;
+    border: 2px solid $brown;
+  }
+}

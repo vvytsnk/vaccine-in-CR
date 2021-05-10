@@ -1,0 +1,51 @@
+.circle-section {
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 206px;
+  width: 100%;
+  max-width: 206px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  @include media-breakpoint-up('md') {
+    margin-top: -136px;
+    height: 272px;
+    max-width: 272px;
+  }
+
+  &-inner {
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $brown;
+    color: #fff;
+    font-family: $font-family-base;
+    font-size: 18px;
+    line-height: 26px;
+    border: 6px solid #DADADA;
+    border-radius: 50%;
+    @include media-breakpoint-up('md') {
+      height: 256px;
+      max-width: 256px;
+    }
+
+    [js-voc] {
+      display: block;
+      font-size: 32px;
+      line-height: 48px;
+      @include media-breakpoint-up('md') {
+        font-size: 48px;
+        line-height: 72px;
+      }
+    }
+  }
+}

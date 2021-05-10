@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">informace <br><span
+                        class="navbar-brand-next-line">o očkování</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-inside" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-center">
+                            <a class="nav-link" aria-current="page" href="#">často kladené otázky</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">plán očkování</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-section-header text-center">
+                <h2>udělejme <span class="circle">tečku</span> <br> za pandemií</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="circle-section">
+        <div class="circle-section-inner">
+            <div class="text-center">
+                V ČR již očkováno lidí <span js-voc></span> k <span js-date></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="next-sources">
+        <h2 class="next-sources-header text-center">
+            Další zdroje ověřených informací o koronaviru a očkování
+        </h2>
+
+        <div class="container">
+            <div class="next-sources-row row">
+                <div class="my-block-wrapper">
+                    <div class="my-block text-center">
+                        <img src="src/img/covid-img.png" alt="" class="my-block-img">
+                        <a href="" class="my-block-link"><p>Covid portál</p></a>
+                        <p class="my-block-text">Vládní opatření lidskou řečí.</p>
+                        <button type="button" class="btn btn-danger btn-go-to-web">Přejít na web <i
+                                class="bi bi-box-arrow-up-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="my-block-wrapper">
+                    <div class="my-block text-center">
+                        <img src="src/img/min-zdr.png" alt="" class="my-block-img">
+                        <a href="" class="my-block-link"><p>Ministerstvo zdravotnictví</p></a>
+                        <p class="my-block-text">Aktuálně ke koronaviru.</p>
+                        <button type="button" class="btn btn-danger btn-go-to-web">Přejít na web <i
+                                class="bi bi-box-arrow-up-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="my-block-wrapper">
+                    <div class="my-block text-center">
+                        <img src="src/img/min-zdr.png" alt="" class="my-block-img">
+                        <a href="" class="my-block-link"><p>Centrální registrační systém</p></a>
+                        <p class="my-block-text">Rezervujte si termín očkování.</p>
+                        <button type="button" class="btn btn-danger btn-go-to-web">Přejít na web <i
+                                class="bi bi-box-arrow-up-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 text-center text-lg-start footer-left">
+                2021 © Ministerstvo zdravotnictví ČR. Všechna práva vyhrazena.
+            </div>
+
+            <div class="col-12 col-lg-6 text-center text-lg-end footer-right">
+                <ul class="list-unstyled footer-menu">
+                    <li>
+                        <a href="">Prohlášení o přístupnosti webových stránek</a>
+                    </li>
+                    <li>
+                        <a href="">Ochrana osobních údajů</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+</body>
+</html>

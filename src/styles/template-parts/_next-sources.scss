@@ -1,0 +1,49 @@
+.next-sources {
+  padding-top: 40px;
+  font-family: $font-family-base;
+
+  &-header {
+    font-size: $next-sources-header;
+    margin-bottom: 30px;
+  }
+
+  &-row {
+    justify-content: center;
+
+    .my-block {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      padding: 20px 10px 35px 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &-wrapper {
+        margin-bottom: 50px;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+        @include media-breakpoint-up('lg') {
+          max-width: 310px;
+        }
+      }
+
+      &-img {
+        margin-bottom: 10px;
+      }
+
+      &-link {
+        font-size: $next-sources-block-link;
+        font-weight: 700;
+        margin-top: 10px;
+        color: $red;
+      }
+
+      &-text {
+        font-family: $font-family-roboto;
+        font-size: $font-size-16;
+      }
+    }
+  }
+}

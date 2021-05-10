@@ -1,0 +1,53 @@
+footer {
+  margin-top: 10px;
+
+  .footer-left {
+    margin-bottom: 10px;
+    font-family: $font-family-roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: $black;
+    @include media-breakpoint-up('lg') {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-right {
+    color: $red;
+
+    a {
+      font-family: $font-family-base;
+      font-size: $font-size-16;
+      color: $red;
+
+    }
+  }
+
+  .footer-menu li {
+    position: relative;
+    @include media-breakpoint-up('lg') {
+      display: inline-block;
+      line-height: 1;
+    }
+
+    &:not(:last-of-type) {
+      @include media-breakpoint-up('lg') {
+        margin-right: 5px;
+        padding-right: 10px;
+      }
+
+      &:after {
+        height: 100%;
+        width: 1px;
+        display: block;
+        background-color: $red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        @include media-breakpoint-up('lg') {
+          content: '';
+        }
+      }
+    }
+  }
+}

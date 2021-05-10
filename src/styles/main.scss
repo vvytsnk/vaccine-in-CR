@@ -1,0 +1,17 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+//base
+@import 'base/_variables';
+@import 'base/_fonts';
+
+//components
+@import 'components/_buttons';
+
+//template-parts
+@import 'template-parts/_header';
+@import 'template-parts/_hero-section';
+@import 'template-parts/_circle-section';
+@import 'template-parts/_next-sources';
+@import 'template-parts/_footer';
+
